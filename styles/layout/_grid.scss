@@ -1,0 +1,19 @@
+@use "../themes/theme";
+
+.grid
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    @media (max-width: 840px)
+    {
+        flex-direction: column;
+    }
+}
+
+.grid__item
+{
+    flex-grow: 1;
+    background-color: theme.$light-color;
+}

@@ -1,0 +1,12 @@
+@use "../themes/theme";
+
+footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: theme.$primary-color;
+    width: 100%;
+    color: theme.$light-color;
+    text-align: center;
+}

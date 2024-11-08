@@ -1,0 +1,164 @@
+body {
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
+}
+
+section {
+  background-color: gainsboro;
+  margin: 5px 0px;
+}
+section div {
+  padding: 5px;
+}
+
+.map {
+  width: 500px;
+}
+
+header {
+  align-content: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #0F69B4;
+  width: 100%;
+  color: gainsboro;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+@media (max-width: 840px) {
+  .grid {
+    flex-direction: column;
+  }
+}
+
+.grid__item {
+  flex-grow: 1;
+  background-color: gainsboro;
+}
+
+.nav__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.nav__item {
+  float: left;
+}
+.nav__item a {
+  display: block;
+  width: 185px;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+}
+@media (max-width: 840px) {
+  .nav__item a {
+    width: 100px;
+  }
+}
+.nav__item a:hover {
+  background-color: #82b3ff;
+  color: gainsboro;
+}
+
+.nav__item--active {
+  background-color: #0F69B4;
+  color: gainsboro;
+}
+
+.nav__item--reserve {
+  float: right;
+}
+@media (max-width: 585px) {
+  .nav__item--reserve {
+    float: left;
+  }
+}
+.nav__item--reserve a {
+  display: block;
+  width: 140px;
+  background-color: #ce484a;
+  color: gainsboro;
+}
+.nav__item--reserve a:hover {
+  background-color: #e22c2c;
+}
+
+.form-container {
+  border-radius: 5px;
+  background-color: gainsboro;
+  padding: 20px;
+  width: 75%;
+}
+
+.form-row {
+  display: flex;
+}
+
+.form-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.form-row__label {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.form-row__input {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+input[type=text], select, textarea {
+  padding: 12px;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #0F69B4;
+  color: gainsboro;
+  padding: 12px 20px;
+  margin-left: 25%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+#servicios img {
+  width: 100px;
+}
+
+.testimonio {
+  background-color: testimonio-bg-color;
+}
+
+#equipo img {
+  width: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

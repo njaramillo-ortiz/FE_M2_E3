@@ -1,0 +1,61 @@
+@use "../themes/theme";
+
+.form-container
+{
+    border-radius: 5px;
+    background-color: theme.$light-color;
+    padding: 20px;
+    width: 75%;
+}
+
+.form-row
+{
+    display: flex;
+}
+
+.form-row::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form-row__label
+{
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.form-row__input
+{
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+input[type=text], select, textarea
+{
+    padding: 12px;
+    border: 1px solid theme.$light-color;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label
+{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] 
+{
+    background-color: theme.$primary-color;
+    color: theme.$light-color;
+    padding: 12px 20px;
+    margin-left: 25%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}

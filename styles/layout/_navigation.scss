@@ -1,0 +1,67 @@
+@use "../themes/theme";
+
+$reserve-color: #ce484a;
+$reserve-color-hover: #e22c2c;
+
+.nav__list 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: theme.$grid-background-color;
+}
+
+.nav__item
+{
+    float: left;
+
+    a
+    {
+        display: block;
+        width: 185px;
+        text-decoration: none;
+        text-align: center;
+        padding: 14px 16px;
+
+        @media (max-width: 840px)
+        {
+            width: 100px;
+        }
+    }
+
+    a:hover
+    {
+        background-color: theme.$secondary-color;
+        color: theme.$light-color;
+    }
+}
+
+.nav__item--active
+{
+    background-color: theme.$primary-color;
+    color: theme.$light-color;
+}
+
+.nav__item--reserve
+{
+    float: right;
+
+    @media (max-width: 585px)
+    {
+        float: left;
+    }
+
+    a
+    {
+        display: block;
+        width: 140px;
+        background-color: $reserve-color;
+        color: theme.$light-color;
+    }
+
+    a:hover
+    {
+        background-color: $reserve-color-hover;
+    }
+}

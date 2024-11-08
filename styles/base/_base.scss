@@ -1,0 +1,19 @@
+@use '../themes/theme';
+
+body
+{
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+section
+{
+    background-color: theme.$light-color;
+    margin: 5px 0px;
+
+    div
+    {
+        padding: 5px;
+    }
+}
