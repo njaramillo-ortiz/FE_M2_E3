@@ -1,4 +1,4 @@
-# Módulo 2 - Ejercicio 2
+# Módulo 2 - Ejercicio 3
 
 Autor: Nicolás Jaramillo Ortiz
 
@@ -7,7 +7,7 @@ Autor: Nicolás Jaramillo Ortiz
 Este proyecto presenta el desarrollo de la página web para un hospital, incluyendo estructura semántica en HTML y vistas principales.
 <br>
 Además, en este ejercicio se agrega modularización y preprocesamiento de estilos. Se utiliza SASS y el patrón 7-1 para ordenar los estilos segun componentes, layouts, etc. También se usa la nomenclatura BEM para las clases, indicando el componente base, sus items y modificadores.
-Finalmente, se utilizan media queries para hacer que tanto la barra de navegación como las secciones informativas (equipo, testimonios, servicios) se muestren de manera responsiva.
+Finalmente, se integra Bootstrap para la implementación de las grillas y también otros componentes cruciales del sitio (cards, botones, etc).
 
 ## Instrucciones de uso
 
@@ -29,9 +29,6 @@ Testeado en Firefox
 ├──── /themes<br>
 ├──── /vendors<br>
 └── index.html
-
-## Vistas
-
 
 ## Créditos
 
