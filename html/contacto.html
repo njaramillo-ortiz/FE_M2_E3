@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <head>
-    <link href="../css/style.css" rel="stylesheet"/>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../styles/vendors/bootstrap/bootstrap.css" rel="stylesheet">
+    <script src="../js/jquery/jquery-3.6.0.js"></script>
+    <script src="../js/bootstrap/bootstrap.js"></script>
 </head>
 <body>
     <header>
@@ -8,10 +11,10 @@
     </header>
     <nav>
         <ul class = "nav__list">
-            <li class="nav__item"><a href="../index.html">Inicio</a></li>
-            <li class="nav__item"><a href="equipo.html">Equipo Médico</a></li>
-            <li class="nav__item"><a class="nav__item--active" href="contacto.html">Contacto</a></li>
-            <li class="nav__item nav__item--reserve"><a>Reservar Cita</a></li>
+            <li class="nav__item"><a href="../index.html" class="btn-secondary">Inicio</a></li>
+            <li class="nav__item"><a href="equipo.html" class="btn-secondary"> Equipo Médico</a></li>
+            <li class="nav__item"><a href="contacto.html" class="btn-primary nav__item--active">Contacto</a></li>
+            <li class="nav__item nav__item--reserve"><a class="btn-danger">Reservar Cita</a></li>
         </ul>
     </nav>
     <section>
@@ -20,22 +23,22 @@
             <form class="form-container">
                 <div class="form-row">
                     <label class="form-row__label">Nombre</label>
-                    <input class="form-row__input" type="text">
+                    <input class="form-control form-row__input" type="text">
                 </div>
                 <div class="form-row">
                     <label class="form-row__label">Correo electrónico</label>
-                    <input class="form-row__input"type="text">
+                    <input class="form-control form-row__input"type="text">
                 </div>
                 <div class="form-row">
                     <label class="form-row__label">Asunto</label>
-                    <input class="form-row__input" type="text">
+                    <input class="form-control form-row__input" type="text">
                 </div>
                 <div class="form-row">
                     <label class="form-row__label">Mensaje</label>
-                    <textarea class="form-row__input" type="text"></textarea>
+                    <textarea class="form-control form-row__input" type="text"></textarea>
                 </div>
                 <div class="form-row">
-                    <input class="form-row__input" type="submit" value="Enviar"></textarea>
+                    <input class="btn-primary form-row__input" type="submit" value="Enviar"></textarea>
                 </div>
             </form>
             <div>

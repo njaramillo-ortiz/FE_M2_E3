@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <head>
-    <link href="../css/style.css" rel="stylesheet"/>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../styles/vendors/bootstrap/bootstrap.css" rel="stylesheet">
+    <script src="../js/jquery/jquery-3.6.0.js"></script>
+    <script src="../js/bootstrap/bootstrap.js"></script>
 </head>
 <body>
     <header>
@@ -8,10 +11,10 @@
     </header>
     <nav>
         <ul class = "nav__list">
-            <li class="nav__item"><a href="../index.html">Inicio</a></li>
-            <li class="nav__item"><a class="nav__item--active" href="equipo.html">Equipo Médico</a></li>
-            <li class="nav__item"><a href="contacto.html">Contacto</a></li>
-            <li class="nav__item nav__item--reserve"><a>Reservar Cita</a></li>
+            <li class="nav__item"><a href="../index.html" class="btn-secondary">Inicio</a></li>
+            <li class="nav__item"><a href="equipo.html"class="btn-primary nav__item--active">Equipo Médico</a></li>
+            <li class="nav__item"><a href="contacto.html" class="btn-secondary">Contacto</a></li>
+            <li class="nav__item nav__item--reserve"><a class="btn-danger">Reservar Cita</a></li>
         </ul>
     </nav>
     <section id="equipo">
@@ -19,9 +22,9 @@
             <h1>Equipo Médico</h1>
             <p>Contamos con un equipo médico altamente especializado, confiable y en constante actualización.</p>
         </div>
-        <div class="grid">
+        <div class="grid container">
 
-            <div class="grid__item">
+            <div class="grid__item card">
                 <div class="grid">
                     <div>
                         <img src="../images/directora.jpg">
@@ -35,7 +38,7 @@
                 </div>
             </div>
 
-            <div class="grid__item">
+            <div class="grid__item card">
                 <div class="grid">
                     <div>
                         <img src="../images/doctor2.jpg">
@@ -49,7 +52,7 @@
                 </div>
             </div>
 
-            <div class="grid__item">
+            <div class="grid__item card">
                 <div class="grid">
                     <div>
                         <img src="../images/doctora.jpg">
@@ -63,7 +66,7 @@
                 </div>
             </div>
 
-            <div class="grid__item">
+            <div class="grid__item card">
                 <div class="grid">
                     <div>
                         <img src="../images/medico.jpg">

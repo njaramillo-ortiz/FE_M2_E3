@@ -1,9 +1,9 @@
-@use "../themes/theme";
+@use '../abstracts/variables';
 
 .form-container
 {
     border-radius: 5px;
-    background-color: theme.$light-color;
+    background-color: variables.$light-color;
     padding: 20px;
     width: 75%;
 }
@@ -37,7 +37,7 @@
 input[type=text], select, textarea
 {
     padding: 12px;
-    border: 1px solid theme.$light-color;
+    border: 1px solid variables.$light-color;
     border-radius: 4px;
     resize: vertical;
 }
@@ -50,8 +50,8 @@ label
 
 input[type=submit] 
 {
-    background-color: theme.$primary-color;
-    color: theme.$light-color;
+    background-color: variables.$primary-color;
+    color: variables.$light-color;
     padding: 12px 20px;
     margin-left: 25%;
     border: none;

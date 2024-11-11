@@ -1,4 +1,5 @@
 @use 'abstracts/mixins';
+@use 'abstracts/variables';
 
 @use 'base/base';
 
@@ -12,5 +13,3 @@
 @use 'pages/contact';
 @use 'pages/home';
 @use 'pages/team';
-
-@use 'themes/theme';

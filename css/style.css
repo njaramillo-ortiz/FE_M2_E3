@@ -1,6 +1,5 @@
 body {
   min-height: 400px;
-  margin-bottom: 100px;
   clear: both;
 }
 
@@ -21,13 +20,15 @@ header {
 }
 
 footer {
-  position: fixed;
+  margin-bottom: 0;
+  position: relative;
   left: 0;
   bottom: 0;
   background-color: #0F69B4;
   width: 100%;
   color: gainsboro;
   text-align: center;
+  min-height: 85px;
 }
 
 .grid {
@@ -42,6 +43,7 @@ footer {
 }
 
 .grid__item {
+  flex: 1;
   flex-grow: 1;
   background-color: gainsboro;
 }

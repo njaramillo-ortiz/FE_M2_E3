@@ -1,4 +1,4 @@
-@use "../themes/theme";
+@use '../abstracts/variables';
 
 $reserve-color: #ce484a;
 $reserve-color-hover: #e22c2c;
@@ -9,7 +9,7 @@ $reserve-color-hover: #e22c2c;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: theme.$grid-background-color;
+    background-color: variables.$grid-background-color;
 }
 
 .nav__item
@@ -32,15 +32,15 @@ $reserve-color-hover: #e22c2c;
 
     a:hover
     {
-        background-color: theme.$secondary-color;
-        color: theme.$light-color;
+        background-color: variables.$secondary-color;
+        color: variables.$light-color;
     }
 }
 
 .nav__item--active
 {
-    background-color: theme.$primary-color;
-    color: theme.$light-color;
+    background-color: variables.$primary-color;
+    color: variables.$light-color;
 }
 
 .nav__item--reserve
@@ -57,7 +57,7 @@ $reserve-color-hover: #e22c2c;
         display: block;
         width: 140px;
         background-color: $reserve-color;
-        color: theme.$light-color;
+        color: variables.$light-color;
     }
 
     a:hover

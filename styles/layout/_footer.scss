@@ -1,12 +1,14 @@
-@use "../themes/theme";
+@use '../abstracts/variables';
 
 footer
 {
-    position: fixed;
+    margin-bottom: 0;
+    position: relative;
     left: 0;
     bottom: 0;
-    background-color: theme.$primary-color;
+    background-color: variables.$primary-color;
     width: 100%;
-    color: theme.$light-color;
+    color: variables.$light-color;
     text-align: center;
+    min-height: 85px;
 }
